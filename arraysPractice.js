@@ -47,8 +47,8 @@ var letters = ['A', 'B', 'C', 'D', 'E'];
 
   //Code Here
 function reversedLooper(letters){
-  for(var x = array.length - 1; arr >=0; i--){
-    alert(letters[i]);
+  for(var x = (letters.length - 1); x >=0; x--){
+    alert(letters[x]);
   }
 }
 
@@ -81,13 +81,13 @@ var odds = [];
 
   //Code Here
 
-function divider(nums, evens, odds){
-  for(var i = 0; i < nums.length; i++){
-
-    nums[i] % 2 === 0? evens.push(nums[i]) : odds.push(nums[i]);
+  function divider(nums, evens, odds){
+    for(var i = 0; i < nums.length; i++){
+      nums[i] % 2 === 0? evens.push(nums[i]) : odds.push(nums[i]);
+    }
+    return [evens, odds];
   }
-  return result;
-}
+
 
 //Next Problem
 
