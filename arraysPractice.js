@@ -100,7 +100,7 @@ var numbers = [0,3,4,5,6,7,9,14,17,24,25,26,29,30];
 
   //Code Here
 function finder(numbers){
-  numbers.indexOf(getRandomArbitrary()) !== -1? true : false;
+  return numbers.indexOf(getRandomArbitrary()) !== -1? true : false;
 }
 
 //Next problem
